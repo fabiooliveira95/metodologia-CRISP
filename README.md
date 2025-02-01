@@ -51,23 +51,6 @@ df = pd.read_csv('demo01.csv')
 print("Número de linhas e colunas da tabela: {}".format(df.shape))
 df.head()
 
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-grafico_barras = df['mau'].value_counts().plot.bar()
-print(df['mau'].value_counts())
-print("\nTaxa de inadimplentes:")
-print(df['mau'].mean())
-
-plt.clf()
-var = "tempo_emprego"
-sns.displot(df, x=var, bins=50)
-plt.show()
-
-git clone https://github.com/fabiooliveira95/repositorio.git
-
-cd repositorio
-
 pip install -r requirements.txt
 
 jupyter notebook metodologia-CRISP.ipynb
