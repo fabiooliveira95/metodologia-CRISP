@@ -52,9 +52,3 @@ print("Número de linhas e colunas da tabela: {}".format(df.shape))
 df.head()
 
 
-""" Análise Univariada
-
-A análise univariada é realizada para entender a distribuição das variáveis. Abaixo estão alguns exemplos de análises:
-Distribuição da Variável Resposta (mau)
-
-A taxa de inadimplentes é de aproximadamente 2.34%."""
