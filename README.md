@@ -74,6 +74,6 @@ Este projeto está sob a licença MIT.
 
 ## 📬 Contato
 
-Fábio Oliveira
-🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)
-📧 fabiooliveira0067@gmail.com
+* Fábio Oliveira
+* 🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)
+* 📧 fabiooliveira0067@gmail.com
