@@ -44,19 +44,19 @@ Atualmente, o projeto cobre as etapas:
   
   1.Clone este repositório:
 
-    bash
-    git clone https://github.com/fabiooliveira95/metodologia-CRISP.git
-
+   ```bash
+      git clone https://github.com/fabiooliveira95/metodologia-CRISP.git
+   ```
  2.Acesse a pasta do projeto:
 
-    bash
-    cd metodologia-CRISP
-
+   ```bash
+      cd metodologia-CRISP
+   ```
 3.Instale as dependências:
 
-    bash
-    pip install -r requirements.txt
-
+   ```bash
+      pip install -r requirements.txt
+   ```
 4.Execute o notebook metodologia-CRISP.ipynb com Jupyter Notebook ou Jupyter Lab.
 
 📊 Fonte dos Dados
