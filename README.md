@@ -28,7 +28,7 @@ Atualmente, o projeto cobre as etapas:
 └── README.md                 # Este arquivo
 ```
 🛠️ Tecnologias Utilizadas
-* Python 3.10+
+* Python 3
 * Jupyter Notebook
 * Bibliotecas:
 * ``Pandas``
