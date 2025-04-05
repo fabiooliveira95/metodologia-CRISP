@@ -1,54 +1,88 @@
-# Análise de Dados para Previsão de Inadimplência em Cartões de Crédito
+📊 Metodologia CRISP-DM – Previsão de Inadimplência
 
-Este repositório contém um notebook Jupyter (`metodologia-CRISP.ipynb`) que realiza uma análise de dados para previsão de inadimplência em cartões de crédito, seguindo a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining). O objetivo principal é construir um modelo preditivo para identificar o risco de inadimplência com base em variáveis observáveis na data da avaliação do crédito.
+Este projeto tem como objetivo aplicar a metodologia CRISP-DM (Cross Industry Standard Process for Data Mining) para prever a inadimplência de clientes com base em variáveis observadas na data da avaliação de crédito.
 
-## Metodologia CRISP-DM
+A análise é conduzida utilizando Python e bibliotecas populares de ciência de dados, com o auxílio de um notebook Jupyter para documentação e replicação do processo.
 
-A metodologia CRISP-DM é dividida em seis etapas principais:
+🚀 Objetivo
 
-1. **Entendimento do Negócio**: Compreensão do problema de negócio e definição dos objetivos.
-2. **Entendimento dos Dados**: Exploração e análise dos dados disponíveis.
-3. **Preparação dos Dados**: Limpeza, transformação e preparação dos dados para modelagem.
-4. **Modelagem**: Construção e avaliação de modelos preditivos.
-5. **Avaliação**: Avaliação dos modelos em relação aos objetivos de negócio.
-6. **Implantação**: Implementação do modelo em um ambiente de produção.
+Construir um modelo preditivo capaz de identificar, com maior precisão, clientes com maior probabilidade de inadimplência em cartão de crédito, ajudando instituições financeiras na tomada de decisão e concessão de crédito.
 
-Este notebook foca nas duas primeiras etapas: **Entendimento do Negócio** e **Entendimento dos Dados**.
+🧠 Metodologia CRISP-DM
 
-## Dicionário de Dados
+A metodologia CRISP-DM é composta por 6 etapas:
 
-O conjunto de dados contém 16 variáveis, incluindo a variável resposta `mau`, que indica se o cliente é um mau pagador (`True`) ou não (`False`). Abaixo está o dicionário de dados:
+    Entendimento do Negócio
 
-| Variável                | Descrição                                         | Tipo       |
-|-------------------------|---------------------------------------------------|------------|
-| sexo                    | M = 'Masculino'; F = 'Feminino'                   | M/F        |
-| posse_de_veiculo        | Y = 'possui'; N = 'não possui'                    | Y/N        |
-| posse_de_imovel         | Y = 'possui'; N = 'não possui'                    | Y/N        |
-| qtd_filhos              | Quantidade de filhos                              | inteiro    |
-| tipo_renda              | Tipo de renda (ex: assalariado, autônomo etc)     | texto      |
-| educacao                | Nível de educação (ex: secundário, superior etc)  | texto      |
-| estado_civil            | Estado civil (ex: solteiro, casado etc)           | texto      |
-| tipo_residencia         | Tipo de residência (ex: casa/apartamento, com os pais etc) | texto |
-| idade                   | Idade em anos                                     | inteiro    |
-| tempo_emprego           | Tempo de emprego em anos                          | inteiro    |
-| possui_celular          | Indica se possui celular (1 = sim, 0 = não)       | binária    |
-| possui_fone_comercial   | Indica se possui telefone comercial (1 = sim, 0 = não) | binária |
-| possui_fone             | Indica se possui telefone (1 = sim, 0 = não)      | binária    |
-| possui_email            | Indica se possui e-mail (1 = sim, 0 = não)        | binária    |
-| qt_pessoas_residencia   | Quantidade de pessoas na residência               | inteiro    |
-| **mau**                 | Indicadora de mau pagador (True = mau, False = bom) | binária |
+    Entendimento dos Dados
 
-## Análise Exploratória de Dados (EDA)
+    Preparação dos Dados
 
-### Carregamento dos Dados
+    Modelagem
 
-O conjunto de dados é carregado a partir de um arquivo CSV (`demo01.csv`) e contém 16.650 linhas e 16 colunas.
+    Avaliação
 
-```python
-import pandas as pd
+    Implantação
 
-df = pd.read_csv('demo01.csv')
-print("Número de linhas e colunas da tabela: {}".format(df.shape))
-df.head()
+Atualmente, o projeto cobre as etapas:
 
+    ✅ Entendimento do Negócio
 
+    ✅ Entendimento dos Dados
+    (Etapas seguintes serão adicionadas em breve)
+
+📁 Estrutura do Projeto
+
+├── metodologia-CRISP.ipynb   # Notebook principal com as análises
+├── data/                     # Pasta sugerida para os dados (não incluídos)
+└── README.md                 # Este arquivo
+
+🛠️ Tecnologias Utilizadas
+
+  Python 3.10+
+  Jupyter Notebook
+  Pandas
+  NumPy
+  Matplotlib
+  Seaborn
+
+  📦 Como Executar
+  
+  1.Clone este repositório:
+
+    bash
+
+    git clone https://github.com/fabiooliveira95/metodologia-CRISP.git
+
+ 2.Acesse a pasta do projeto:
+
+    bash
+
+    cd metodologia-CRISP
+
+3.Instale as dependências:
+
+    bash
+
+    pip install -r requirements.txt
+
+4.Execute o notebook metodologia-CRISP.ipynb com Jupyter Notebook ou Jupyter Lab.
+
+📊 Fonte dos Dados
+
+Os dados utilizados neste projeto são fictícios e representam clientes de cartão de crédito com suas características demográficas e comportamentais.
+(Adicione aqui o link ou referência para o dataset, se for público.)
+
+📌 Status do Projeto
+
+🚧 Em desenvolvimento | Etapas seguintes da metodologia ainda serão implementadas (Modelagem, Avaliação e Implantação).
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
+
+## 📬 Contato
+
+Fábio Oliveira
+🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)
+📧 fabiooliveira0067@gmail.com
