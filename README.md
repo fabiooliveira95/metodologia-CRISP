@@ -59,7 +59,7 @@ Os dados utilizados neste projeto são fictícios e representam clientes de cart
 
 📌 Status do Projeto
 
-🚧 Em desenvolvimento | Etapas seguintes da metodologia ainda serão implementadas (Modelagem, Avaliação e Implantação).
+✅ Concluído
 
 📄 Licença
 
