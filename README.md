@@ -22,10 +22,11 @@ Atualmente, o projeto cobre as etapas:
 * (Etapas seguintes serão adicionadas em breve)
 
 📁 Estrutura do Projeto
+```texto
 ├── metodologia-CRISP.ipynb   # Notebook principal com as análises
 ├── data/                     # Pasta sugerida para os dados (não incluídos)
 └── README.md                 # Este arquivo
-
+```
 🛠️ Tecnologias Utilizadas
 * Python 3.10+
 * Jupyter Notebook
