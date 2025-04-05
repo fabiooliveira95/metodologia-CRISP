@@ -70,7 +70,7 @@ Os dados utilizados neste projeto são fictícios e representam clientes de cart
 
 📄 Licença
 
-Este projeto está sob a licença MIT.
+* ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 📬 Contato
 
