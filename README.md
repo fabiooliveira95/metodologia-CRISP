@@ -13,21 +13,15 @@ Construir um modelo preditivo capaz de identificar, com maior precisão, cliente
 A metodologia CRISP-DM é composta por 6 etapas:
 
     Entendimento do Negócio
-
     Entendimento dos Dados
-
     Preparação dos Dados
-
     Modelagem
-
     Avaliação
-
     Implantação
 
 Atualmente, o projeto cobre as etapas:
 
     ✅ Entendimento do Negócio
-
     ✅ Entendimento dos Dados
     (Etapas seguintes serão adicionadas em breve)
 
@@ -51,19 +45,16 @@ Atualmente, o projeto cobre as etapas:
   1.Clone este repositório:
 
     bash
-
     git clone https://github.com/fabiooliveira95/metodologia-CRISP.git
 
  2.Acesse a pasta do projeto:
 
     bash
-
     cd metodologia-CRISP
 
 3.Instale as dependências:
 
     bash
-
     pip install -r requirements.txt
 
 4.Execute o notebook metodologia-CRISP.ipynb com Jupyter Notebook ou Jupyter Lab.
