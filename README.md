@@ -12,18 +12,18 @@ Construir um modelo preditivo capaz de identificar, com maior precisão, cliente
 
 A metodologia CRISP-DM é composta por 6 etapas:
 
-    Entendimento do Negócio
-    Entendimento dos Dados
-    Preparação dos Dados
-    Modelagem
-    Avaliação
-    Implantação
+* Entendimento do Negócio
+* Entendimento dos Dados
+* Preparação dos Dados
+* Modelagem
+* Avaliação
+* Implantação
 
 Atualmente, o projeto cobre as etapas:
 
-    ✅ Entendimento do Negócio
-    ✅ Entendimento dos Dados
-    (Etapas seguintes serão adicionadas em breve)
+* ✅ Entendimento do Negócio
+* ✅ Entendimento dos Dados
+* (Etapas seguintes serão adicionadas em breve)
 
 📁 Estrutura do Projeto
 
