@@ -1,4 +1,5 @@
 📊 Metodologia CRISP-DM – Previsão de Inadimplência
+
 Este projeto tem como objetivo aplicar a metodologia CRISP-DM (Cross Industry Standard Process for Data Mining) para prever a inadimplência de clientes com base em variáveis observadas na data da avaliação de crédito.
 A análise é conduzida utilizando Python e bibliotecas populares de ciência de dados, com o auxílio de um notebook Jupyter para documentação e replicação do processo.
 
