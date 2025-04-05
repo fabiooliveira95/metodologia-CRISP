@@ -29,10 +29,11 @@ Atualmente, o projeto cobre as etapas:
 🛠️ Tecnologias Utilizadas
 * Python 3.10+
 * Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+* Bibliotecas:
+* ``Pandas``
+* ``NumPy``
+* ``Matplotlib``
+* ``Seaborn``
 
 📦 Como Executar
 
