@@ -1,15 +1,11 @@
 📊 Metodologia CRISP-DM – Previsão de Inadimplência
-
 Este projeto tem como objetivo aplicar a metodologia CRISP-DM (Cross Industry Standard Process for Data Mining) para prever a inadimplência de clientes com base em variáveis observadas na data da avaliação de crédito.
-
 A análise é conduzida utilizando Python e bibliotecas populares de ciência de dados, com o auxílio de um notebook Jupyter para documentação e replicação do processo.
 
 🚀 Objetivo
-
 Construir um modelo preditivo capaz de identificar, com maior precisão, clientes com maior probabilidade de inadimplência em cartão de crédito, ajudando instituições financeiras na tomada de decisão e concessão de crédito.
 
 🧠 Metodologia CRISP-DM
-
 A metodologia CRISP-DM é composta por 6 etapas:
 
 * Entendimento do Negócio
@@ -20,43 +16,37 @@ A metodologia CRISP-DM é composta por 6 etapas:
 * Implantação
 
 Atualmente, o projeto cobre as etapas:
-
 * ✅ Entendimento do Negócio
 * ✅ Entendimento dos Dados
 * (Etapas seguintes serão adicionadas em breve)
 
 📁 Estrutura do Projeto
-
 ├── metodologia-CRISP.ipynb   # Notebook principal com as análises
 ├── data/                     # Pasta sugerida para os dados (não incluídos)
 └── README.md                 # Este arquivo
 
 🛠️ Tecnologias Utilizadas
+* Python 3.10+
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
-  * Python 3.10+
-  * Jupyter Notebook
-  * Pandas
-  * NumPy
-  * Matplotlib
-  * Seaborn
+📦 Como Executar
 
-  📦 Como Executar
-  
-  1.Clone este repositório:
-
-   ```bash
-      git clone https://github.com/fabiooliveira95/metodologia-CRISP.git
-   ```
- 2.Acesse a pasta do projeto:
-
-   ```bash
-      cd metodologia-CRISP
-   ```
+1.Clone este repositório:
+```bash
+   git clone https://github.com/fabiooliveira95/metodologia-CRISP.git
+```
+2.Acesse a pasta do projeto:
+```bash
+   cd metodologia-CRIS
+```
 3.Instale as dependências:
-
-   ```bash
-      pip install -r requirements.txt
-   ```
+```bash
+   pip install -r requirements.txt
+```
 4.Execute o notebook metodologia-CRISP.ipynb com Jupyter Notebook ou Jupyter Lab.
 
 📊 Fonte dos Dados
